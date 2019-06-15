@@ -1,0 +1,20 @@
+ext {
+    cfgs = [
+            compileSdkVersion    : 28,
+            minSdkVersion        : 16,
+            targetSdkVersion     : 28,
+            ucropVersionCode     : 1,
+            ucropVersionName     : "1.0",
+
+
+            //open version control
+            androidSupportVersion: "28.0.0",
+            glide                : "4.5.0",
+            rxjava               : "2.0.5",
+            rxandroid            : "1.2.1",
+            eventbus             : "3.0.0",
+            gosn                 : "2.2.4",
+            transformations      : "3.3.0",
+            buildToolsVersion     : "28.0.3",
+    ]
+}

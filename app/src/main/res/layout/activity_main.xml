@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/dp_370"-->
+        <!--android:background="@drawable/icon_bg" />-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/dp_370">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_marginBottom="@dimen/dp_80"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="bottom"-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:src="@drawable/v0" />-->
+
+                <!--<ProgressBar-->
+                    <!--android:id="@+id/progressBar"-->
+                    <!--style="?android:attr/progressBarStyleHorizontal"-->
+                    <!--android:layout_width="@dimen/dp_10"-->
+                    <!--android:layout_height="@dimen/dp_0"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:max="100"-->
+                    <!--android:progress="100"-->
+                    <!--android:progressDrawable="@drawable/my_progressbar"-->
+                    <!--android:visibility="visible" />-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/image"-->
+                    <!--android:layout_width="@dimen/dp_40"-->
+                    <!--android:layout_height="@dimen/dp_18"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginTop="@dimen/dp_10"-->
+                    <!--android:src="@drawable/v1" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="bottom"-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:src="@drawable/v60" />-->
+
+                <!--<ProgressBar-->
+                    <!--android:id="@+id/progressBar2"-->
+                    <!--style="?android:attr/progressBarStyleHorizontal"-->
+                    <!--android:layout_width="@dimen/dp_10"-->
+                    <!--android:layout_height="@dimen/dp_26"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginTop="@dimen/dp_10"-->
+                    <!--android:max="100"-->
+                    <!--android:progress="100"-->
+                    <!--android:progressDrawable="@drawable/my_progressbar1"-->
+                    <!--android:visibility="visible" />-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/image2"-->
+                    <!--android:layout_width="@dimen/dp_40"-->
+                    <!--android:layout_height="@dimen/dp_18"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginTop="@dimen/dp_10"-->
+                    <!--android:src="@drawable/v2" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="bottom"-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:src="@drawable/v140" />-->
+
+                <!--<ProgressBar-->
+                    <!--android:id="@+id/progressBar3"-->
+                    <!--style="?android:attr/progressBarStyleHorizontal"-->
+                    <!--android:layout_width="@dimen/dp_10"-->
+                    <!--android:layout_height="@dimen/dp_50"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginTop="@dimen/dp_10"-->
+                    <!--android:max="100"-->
+                    <!--android:progress="100"-->
+                    <!--android:progressDrawable="@drawable/my_progressbar1"-->
+                    <!--android:visibility="visible" />-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/image3"-->
+                    <!--android:layout_width="@dimen/dp_40"-->
+                    <!--android:layout_height="@dimen/dp_18"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginTop="@dimen/dp_10"-->
+                    <!--android:src="@drawable/v3" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="bottom"-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:src="@drawable/v300" />-->
+
+                <!--<ProgressBar-->
+                    <!--android:id="@+id/progressBar4"-->
+                    <!--style="?android:attr/progressBarStyleHorizontal"-->
+                    <!--android:layout_width="@dimen/dp_10"-->
+                    <!--android:layout_height="@dimen/dp_100"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginTop="@dimen/dp_10"-->
+                    <!--android:max="100"-->
+                    <!--android:progress="100"-->
+                    <!--android:progressDrawable="@drawable/my_progressbar1"-->
+                    <!--android:visibility="visible" />-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/image4"-->
+                    <!--android:layout_width="@dimen/dp_40"-->
+                    <!--android:layout_height="@dimen/dp_18"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginTop="@dimen/dp_10"-->
+                    <!--android:src="@drawable/v4" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="bottom"-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:src="@drawable/v600" />-->
+
+                <!--<ProgressBar-->
+                    <!--android:id="@+id/progressBar5"-->
+                    <!--style="?android:attr/progressBarStyleHorizontal"-->
+                    <!--android:layout_width="@dimen/dp_10"-->
+                    <!--android:layout_height="@dimen/dp_200"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginTop="@dimen/dp_10"-->
+                    <!--android:max="100"-->
+                    <!--android:progress="100"-->
+                    <!--android:progressDrawable="@drawable/my_progressbar1"-->
+                    <!--android:visibility="visible" />-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/image5"-->
+                    <!--android:layout_width="@dimen/dp_40"-->
+                    <!--android:layout_height="@dimen/dp_18"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginTop="@dimen/dp_10"-->
+                    <!--android:src="@drawable/v5" />-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/relativeLayout"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="@dimen/dp_220"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:visibility="visible">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/dp_200"-->
+                <!--android:layout_marginTop="@dimen/dp_10"-->
+                <!--android:src="@drawable/quxian" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_marginLeft="@dimen/dp_30"-->
+                <!--android:src="@drawable/huangseyuan"-->
+                <!--android:visibility="gone" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/image_yidong"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="@dimen/dp_20"-->
+                <!--android:layout_marginTop="@dimen/dp_200"-->
+                <!--android:src="@drawable/huangseyuan" />-->
+        <!--</RelativeLayout>-->
+
+    <!--</RelativeLayout>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/image_btn"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="@dimen/dp_315"-->
+        <!--android:src="@drawable/icon_jianglijizhi" />-->
+
+    <com.XHWJ.xiaoAiTongXue.ChartView
+        android:id="@+id/chart_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_300"
+        android:layout_alignTop="@+id/text"
+        android:background="@drawable/icon_bg" />
+    <SeekBar
+        android:max="600"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="90dp"
+        android:id="@+id/seekBar"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/textview_style"
+        android:text="成长值已达到 0 点"
+        android:textSize="14sp"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

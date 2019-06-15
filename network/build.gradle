@@ -1,0 +1,45 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion cfgs.compileSdkVersion
+
+
+
+    defaultConfig {
+        minSdkVersion cfgs.minSdkVersion
+        targetSdkVersion cfgs.targetSdkVersion
+        versionCode cfgs.ucropVersionCode
+        versionName cfgs.ucropVersionName
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+//    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+//    implementation 'com.android.support:appcompat-v7:26.0.2'
+//    testImplementation 'junit:junit:4.12'
+//    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+//    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    api "com.github.bumptech.glide:glide:${cfgs.glide}"
+    api "jp.wasabeef:glide-transformations:${cfgs.transformations}"
+    annotationProcessor "com.github.bumptech.glide:compiler:${cfgs.glide}"
+    implementation 'com.orhanobut:logger:1.15'
+    //必须使用
+    api 'com.lzy.net:okgo:3.0.4'
+    implementation 'com.lzy.net:okrx:1.0.2'
+    api "org.greenrobot:eventbus:${cfgs.eventbus}"
+    implementation 'com.readystatesoftware.chuck:library:1.0.4'
+    implementation 'io.reactivex:rxandroid:1.2.1'
+}
